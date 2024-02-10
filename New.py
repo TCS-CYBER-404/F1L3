@@ -461,7 +461,7 @@ def api(ids,names,passlist):
                                 gtt=random.choice(xxxxx)
                                 gttt=random.choice(xxxxx)
                                 android_version=str(random.randrange(6,13))
-                                uax = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,77))+'.0.0.'+str(random.randint(1111,7777))+';FBBV/'+str(random.randint(1111111,7777777))+';[FBAN/FB4A;FBAV/298.0.0.50.71;FBBV/225283944;FBRV/0;FBPN/com.facebook.katana;FBLC/it_IT;FBMF/Wing;FBBD/Wing;FBDV/LG;FBSV/13;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1440};FB_FW/1;]'
+                                uax = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,77))+'.0.0.'+str(random.randint(1111,7777))+';FBBV/'+str(random.randint(1111111,7777777))+';[FBAN/FB4A;FBAV/376.0.0.62.66;FBBV/970193765;FBRV/0;FBPN/com.facebook.katana;FBLC/en_GB;FBMF/Redmi;FBBD/Redmi;FBDV/70 Pro;FBSV/13;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1440};FB_FW/1;]'
                                 ua_string = f'Davik/2.1.0 (linex; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.0,width=720,height=1280};'+f'FBLC/en_US;FBRV/{str(application_version_code)};FBCR/Banglalink;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N950U;FBSV/9;FBOP/1;FBCA/arm64-v8a:;]'
                                 device_id = str(uuid.uuid4())
                                 adid = str(uuid.uuid4())
